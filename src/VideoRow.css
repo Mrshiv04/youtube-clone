@@ -1,0 +1,54 @@
+.videoRow {
+	display: flex;
+	margin-bottom: 30px;
+	max-width: 700px;
+	cursor: pointer;
+}
+
+.videoRow_text > h3 {
+	color: white;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+
+.videoRow > img {
+	object-fit: contain;
+	width: 246px;
+	height: 138px;
+}
+
+.videoRow_text {
+	margin-left: 14px;
+}
+
+.videoRow_description {
+	color: #919191;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.videoRow_headline {
+	font-size: 12px;
+	color: #919191;
+}
+
+.videoRow_subsNumber {
+	font-weight: bold;
+	color: rgba(84, 157, 211);
+	margin-right: 2px;
+}
+
+.videoRow_subs {
+	background-color: rgb(212, 212, 212);
+	border-radius: 5px;
+	color: black;
+	padding: 2px;
+}
+
+.videoRow_head_logo {
+	margin-right: 7px;
+	height: 30px !important;
+	width: 30px !important;
+}

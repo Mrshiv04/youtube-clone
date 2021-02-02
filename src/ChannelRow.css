@@ -1,0 +1,33 @@
+.channelRow {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+.channelRow_text {
+	display: flex;
+	flex-direction: column;
+}
+
+.channelRow_text > p {
+	color: #969696;
+	font-size: small !important;
+}
+
+.channelRow_logo {
+	height: 120px !important;
+	width: 120px !important;
+	margin: 10px 60px;
+}
+
+.channelRow_text > h4 {
+	color: white;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+.channelRow_text > h4 > .MuiSvgIcon-root {
+	margin-left: 10px;
+	color: gray;
+}
